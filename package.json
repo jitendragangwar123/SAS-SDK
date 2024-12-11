@@ -1,6 +1,9 @@
 {
   "name": "@starknet-attestation-service/sas-sdk",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "SDK for starknet-attestation-service on StarkNet",
   "main": "index.js",
   "scripts": {
