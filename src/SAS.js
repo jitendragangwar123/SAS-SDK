@@ -69,14 +69,11 @@ class SAS {
       throw new Error("Revocable flag must be a boolean.");
 
     try {
-      const nonce = await this.account.getNonce();
+      //const nonce = await this.account.getNonce();
       const tx = await this.schemaRegistryContract.register(
         schema,
         resolver,
-        revocable,
-        {
-          nonce,
-        }
+        revocable
       );
       return tx.transaction_hash;
     } catch (error) {
