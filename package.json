@@ -1,10 +1,10 @@
 {
   "name": "@jitendra_123/sas-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publishConfig": {
     "access": "public"
   },
-  "description": "SDK for starknet-attestation-service on StarkNet",
+  "description": "SDK for starknet-attestation-service",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
